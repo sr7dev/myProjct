@@ -1,195 +1,183 @@
-# Angular QuickStart Source
-[![Build Status][travis-badge]][travis-badge-url]
+# [Material Dashboard Angular - Free Bootstrap Material Design Admin](https://www.creative-tim.com/product/material-dashboard-angular2)[![version][version-badge]][CHANGELOG]
 
-**This repository is now deprecated. The Angular Quickstart project was a nice starting point for creating Angular applications. Now we recommend using the [Angular CLI](https://github.com/angular/angular-cli) to create new Angular projects.**
+![alt text](http://s3.amazonaws.com/creativetim_bucket/products/53/original/opt_md_angular_thumbnail.jpg "Material Dashboard Angular Free")
 
-**Starting from 1 November 2017, all the Angular documentation, at [angular.io](https://angular.io), is based on the Angular CLI.**
+**[Material Dashboard Angular](https://www.creative-tim.com/product/material-dashboard-angular2/)** is a free Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard was built over the popular Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
 
-**Let's [get started](https://angular.io/guide/quickstart)**
+Material Dashboard makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
 
----
+This product came as a result of users asking for a material dashboard after we released our successful [Material Kit](http://www.creative-tim.com/product/material-kit). We developed it based on your feedback and it is a powerful bootstrap admin dashboard, which allows you to build products like admin panels, content managements systems and CRMs.
 
-This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
-the foundation for most of the documentation samples and potentially a good starting point for your application.
+Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
 
-It's been extended with testing support so you can start writing tests immediately.
+Material Dashboard uses a framework built by our friend [Federico - Bootstrap Material Design](http://fezvrasta.github.io/bootstrap-material-design/), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
 
-**This is not the perfect arrangement for your application. It is not designed for production.
-It exists primarily to get you started quickly with learning and prototyping in Angular**
+Special thanks go to:
+[Robert McIntosh](https://github.com/mouse0270/bootstrap-notify) for the notification system.
+[Chartist](https://gionkunz.github.io/chartist-js/) for the wonderful charts.
+We are very excited to share this dashboard with you and we look forward to hearing your feedback!
 
-We are unlikely to accept suggestions about how to grow this QuickStart into something it is not.
-Please keep that in mind before posting issues and PRs.
+You can find the Github Repo here.
 
-## Updating to a newer version of the Quickstart Repo
+## Links:
 
-From time to time the QuickStart will be enhanced with support for new features or to reflect
-changes to the [official Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html).
++ [Live Preview](https://www.creative-tim.com/product/material-dashboard-angular2)
++ [Material Kit - For Front End Development](http://www.creative-tim.com/product/material-kit?ref=github-md-angular)
 
-You can update your existing project to an up-to-date QuickStart by following these instructions:
-- Create a new project using the [instructions below](#create-a-new-project-based-on-the-quickstart)
-- Copy the code you have in your project's `main.ts` file onto `src/app/main.ts` in the new project
-- Copy your old `app` folder into `src/app`
-- Delete `src/app/main.ts` if you have one (we now use `src/main.ts` instead)
-- Copy your old `index.html`, `styles.css` and `tsconfig.json` into `src/`
-- Install all your third party dependencies
-- Copy your old `e2e/` folder into `e2e/`
-- Copy over any other files you added to your project
-- Copy your old `.git` folder into your new project's root
+## Quick start
 
-Now you can continue working on the new project.
+Quick start options:
 
-## Prerequisites
+- [Download from Github](https://github.com/tiniestory/material-dashboard-angular2/archive/master.zip).
+- [Download from Creative Tim](http://www.creative-tim.com/product/material-dashboard-angular2).
 
-Node.js and npm are essential to Angular development. 
-    
-<a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
-Get it now</a> if it's not already installed on your machine.
- 
-**Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
-by running `node -v` and `npm -v` in a terminal/console window.
-Older versions produce errors.
+## Terminal Commands
 
-We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of node and npm.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0 and angular 4.x.
 
-## Create a new project based on the QuickStart
+1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/en).
+2. Open Terminal
+3. Go to your file project
+4. Make sure you have installed [Angular CLI](https://github.com/angular/angular-cli) already. If not, please install.
+5. Run in terminal: ```npm install```
+6. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Clone this repo into new project folder (e.g., `my-proj`).
-```shell
-git clone https://github.com/angular/quickstart  my-proj
-cd my-proj
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### What's included
+
+Within the download you'll find the following directories and files:
+
+```
+material-dashboard-angular
+├── CHANGELOG.md
+├── LICENSE.md
+├── README.md
+├── angular-cli.json
+├── documentation
+├── e2e
+├── karma.conf.js
+├── package-lock.json
+├── package.json
+├── protractor.conf.js
+├── src
+│   ├── app
+│   │   ├── app.component.css
+│   │   ├── app.component.html
+│   │   ├── app.component.spec.ts
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   │   ├── app.routing.ts
+│   │   ├── components
+│   │   │   ├── components.module.ts
+│   │   │   ├── footer
+│   │   │   │   ├── footer.component.css
+│   │   │   │   ├── footer.component.html
+│   │   │   │   ├── footer.component.spec.ts
+│   │   │   │   └── footer.component.ts
+│   │   │   ├── navbar
+│   │   │   │   ├── navbar.component.css
+│   │   │   │   ├── navbar.component.html
+│   │   │   │   ├── navbar.component.spec.ts
+│   │   │   │   └── navbar.component.ts
+│   │   │   └── sidebar
+│   │   │       ├── sidebar.component.css
+│   │   │       ├── sidebar.component.html
+│   │   │       ├── sidebar.component.spec.ts
+│   │   │       └── sidebar.component.ts
+│   │   ├── dashboard
+│   │   │   ├── dashboard.component.css
+│   │   │   ├── dashboard.component.html
+│   │   │   ├── dashboard.component.spec.ts
+│   │   │   └── dashboard.component.ts
+│   │   ├── icons
+│   │   │   ├── icons.component.css
+│   │   │   ├── icons.component.html
+│   │   │   ├── icons.component.spec.ts
+│   │   │   └── icons.component.ts
+│   │   ├── layouts
+│   │   │   └── admin-layout
+│   │   │       ├── admin-layout.component.html
+│   │   │       ├── admin-layout.component.scss
+│   │   │       ├── admin-layout.component.spec.ts
+│   │   │       ├── admin-layout.component.ts
+│   │   │       ├── admin-layout.module.ts
+│   │   │       └── admin-layout.routing.ts
+│   │   ├── maps
+│   │   │   ├── maps.component.css
+│   │   │   ├── maps.component.html
+│   │   │   ├── maps.component.spec.ts
+│   │   │   └── maps.component.ts
+│   │   ├── notifications
+│   │   │   ├── notifications.component.css
+│   │   │   ├── notifications.component.html
+│   │   │   ├── notifications.component.spec.ts
+│   │   │   └── notifications.component.ts
+│   │   ├── table-list
+│   │   │   ├── table-list.component.css
+│   │   │   ├── table-list.component.html
+│   │   │   ├── table-list.component.spec.ts
+│   │   │   └── table-list.component.ts
+│   │   ├── typography
+│   │   │   ├── typography.component.css
+│   │   │   ├── typography.component.html
+│   │   │   ├── typography.component.spec.ts
+│   │   │   └── typography.component.ts
+│   │   ├── upgrade
+│   │   │   ├── upgrade.component.css
+│   │   │   ├── upgrade.component.html
+│   │   │   ├── upgrade.component.spec.ts
+│   │   │   └── upgrade.component.ts
+│   │   └── user-profile
+│   │       ├── user-profile.component.css
+│   │       ├── user-profile.component.html
+│   │       ├── user-profile.component.spec.ts
+│   │       └── user-profile.component.ts
+│   ├── assets
+│   │   ├── css
+│   │   │   └── demo.css
+│   │   ├── img
+│   │   └── scss
+│   │       ├── core
+│   │       └── material-dashboard.scss
+│   ├── environments
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── main.ts
+│   ├── polyfills.ts
+│   ├── styles.css
+│   ├── test.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.spec.json
+│   └── typings.d.ts
+├── tsconfig.json
+├── tslint.json
+└── typings
+
 ```
 
-We have no intention of updating the source on `angular/quickstart`.
-Discard the `.git` folder..
-```shell
-rm -rf .git  # OS/X (bash)
-rd .git /S/Q # windows
-```
-### Delete _non-essential_ files (optional)
+## Useful Links
 
-You can quickly delete the _non-essential_ files that concern testing and QuickStart repository maintenance
-(***including all git-related artifacts*** such as the `.git` folder and `.gitignore`!)
-by entering the following commands while in the project folder:
+More products from Creative Tim: <http://www.creative-tim.com/bootstrap-themes>
 
-##### OS/X (bash)
-```shell
-xargs rm -rf < non-essential-files.osx.txt
-rm src/app/*.spec*.ts
-rm non-essential-files.osx.txt
-```
+Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
 
-##### Windows
-```shell
-for /f %i in (non-essential-files.txt) do del %i /F /S /Q
-rd .git /s /q
-rd e2e /s /q
-```
+Freebies: <http://www.creative-tim.com/products>
 
-### Create a new git repo
-You could [start writing code](#start-development) now and throw it all away when you're done.
-If you'd rather preserve your work under source control, consider taking the following steps.
+Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
 
-Initialize this project as a *local git repo* and make the first commit:
-```shell
-git init
-git add .
-git commit -m "Initial commit"
-```
+Social Media:
 
->Recover the deleted `.gitignore` from the QuickStart repository 
-if you lost it in the _Delete non-essential files_ step.
+Twitter: <https://twitter.com/CreativeTim>
 
-Create a *remote repository* for this project on the service of your choice.
+Facebook: <https://www.facebook.com/CreativeTim>
 
-Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the *local repo* to the *remote*.
-```shell
-git remote add origin <repo-address>
-git push -u origin master
-```
-## Install npm packages
+Dribbble: <https://dribbble.com/creativetim>
 
-> See npm and nvm version notes above
+Google+: <https://plus.google.com/+CreativetimPage>
 
-Install the npm packages described in the `package.json` and verify that it works:
+Instagram: <https://instagram.com/creativetimofficial>
 
-```shell
-npm install
-npm start
-```
+[CHANGELOG]: ./CHANGELOG.md
 
->Doesn't work in _Bash for Windows_ which does not support servers as of January, 2017.
-
-The `npm start` command first compiles the application, 
-then simultaneously re-compiles and runs the `lite-server`.
-Both the compiler and the server watch for file changes.
-
-Shut it down manually with `Ctrl-C`.
-
-You're ready to write your application.
-
-### npm scripts
-
-We've captured many of the most useful commands in npm scripts defined in the `package.json`:
-
-* `npm start` - runs the compiler and a server at the same time, both in "watch mode".
-* `npm run build` - runs the TypeScript compiler once.
-* `npm run build:w` - runs the TypeScript compiler in watch mode; the process keeps running, awaiting changes to TypeScript files and re-compiling when it sees them.
-* `npm run serve` - runs the [lite-server](https://www.npmjs.com/package/lite-server), a light-weight, static file server, written and maintained by
-[John Papa](https://github.com/johnpapa) and
-[Christopher Martin](https://github.com/cgmartin)
-with excellent support for Angular apps that use routing.
-
-Here are the test related scripts:
-* `npm test` - compiles, runs and watches the karma unit tests
-* `npm run e2e` - compiles and run protractor e2e tests, written in Typescript (*e2e-spec.ts)
-
-## Testing
-
-The QuickStart documentation doesn't discuss testing.
-This repo adds both karma/jasmine unit test and protractor end-to-end testing support.
-
-These tools are configured for specific conventions described below.
-
-*It is unwise and rarely possible to run the application, the unit tests, and the e2e tests at the same time.
-We recommend that you shut down one before starting another.*
-
-### Unit Tests
-TypeScript unit-tests are usually in the `src/app` folder. Their filenames must end in `.spec.ts`.
-
-Look for the example `src/app/app.component.spec.ts`.
-Add more `.spec.ts` files as you wish; we configured karma to find them.
-
-Run it with `npm test`
-
-That command first compiles the application, then simultaneously re-compiles and runs the karma test-runner.
-Both the compiler and the karma watch for (different) file changes.
-
-Shut it down manually with `Ctrl-C`.
-
-Test-runner output appears in the terminal window.
-We can update our app and our tests in real-time, keeping a weather eye on the console for broken tests.
-Karma is occasionally confused and it is often necessary to shut down its browser or even shut the command down (`Ctrl-C`) and
-restart it. No worries; it's pretty quick.
-
-### End-to-end (E2E) Tests
-
-E2E tests are in the `e2e` directory, side by side with the `src` folder.
-Their filenames must end in `.e2e-spec.ts`.
-
-Look for the example `e2e/app.e2e-spec.ts`.
-Add more `.e2e-spec.js` files as you wish (although one usually suffices for small projects);
-we configured Protractor to find them.
-
-Thereafter, run them with `npm run e2e`.
-
-That command first compiles, then simultaneously starts the `lite-server` at `localhost:8080`
-and launches Protractor.  
-
-The pass/fail test results appear at the bottom of the terminal window.
-A custom reporter (see `protractor.config.js`) generates a  `./_test-output/protractor-results.txt` file
-which is easier to read; this file is excluded from source control.
-
-Shut it down manually with `Ctrl-C`.
-
-[travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
-[travis-badge-url]: https://travis-ci.org/angular/quickstart
+[version-badge]: https://img.shields.io/badge/version-2.2.0-blue.svg

@@ -1,15 +1,14 @@
-import { browser, element, by } from 'protractor';
+import { MaterialDashboardAngularPage } from './app.po';
 
-describe('QuickStart E2E Tests', function () {
+describe('material-dashboard-angular App', () => {
+  let page: MaterialDashboardAngularPage;
 
-  let expectedMsg = 'Hello Angular';
-
-  beforeEach(function () {
-    browser.get('');
+  beforeEach(() => {
+    page = new MaterialDashboardAngularPage();
   });
 
-  it('should display: ' + expectedMsg, function () {
-    expect(element(by.css('h1')).getText()).toEqual(expectedMsg);
+  it('should display message saying app works', () => {
+    page.navigateTo();
+    expect(page.getParagraphText()).toEqual('app works!');
   });
-
 });
